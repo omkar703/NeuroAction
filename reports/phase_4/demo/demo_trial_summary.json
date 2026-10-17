@@ -1,0 +1,220 @@
+{
+  "export_timestamp": "2026-10-13T21:50:04.093322",
+  "trial_summary": {
+    "participant_id": "sub-01",
+    "trial_id": "sub-01_run-01_L1_tr00",
+    "current_replay_time_ms": 2605.0,
+    "trial_metadata": {
+      "participant_id": "sub-01",
+      "run_id": "run-01_L1",
+      "trial_id": "sub-01_run-01_L1_tr00",
+      "trial_index": 0,
+      "label_code": 0,
+      "congruency": "congruent",
+      "target_goal": "left",
+      "physical_hand_direction": "left",
+      "ball_color": "red",
+      "valid": false,
+      "exclusion_reason": "Initial kinematic prefix contains NaN values.",
+      "go_cue_time_ms": 0.0,
+      "kinematic_onset_time_ms": null,
+      "movement_duration_ms": 2810.0,
+      "target_coordinates": [
+        -188.0,
+        150.0,
+        53.0
+      ],
+      "coordinate_units": "mm",
+      "coordinate_frame": "leap_motion_cartesian",
+      "eeg_sample_range_ms": [
+        -1000.0,
+        0.0
+      ],
+      "kinematic_sample_count": 282
+    },
+    "neural_result": {
+      "participant_id": "sub-01",
+      "trial_id": "sub-01_run-01_L1_tr00",
+      "model_name": "lda_goal_decoder_held_out_sub01",
+      "prediction_time_ms": 0.0,
+      "window_start_ms": -1000.0,
+      "window_end_ms": 0.0,
+      "predicted_goal": "left",
+      "probability_left": 0.7582739591598511,
+      "probability_right": 0.2417260706424713,
+      "confidence": 0.7582739591598511,
+      "score_type": "posterior_probability",
+      "is_calibrated": false,
+      "status": "AVAILABLE",
+      "error_message": null,
+      "is_temporally_valid": true,
+      "processing_mode": "offline_acausal"
+    },
+    "current_kinematics": {
+      "participant_id": "sub-01",
+      "trial_id": "sub-01_run-01_L1_tr00",
+      "timestamp_ms": 2605.0,
+      "position": [
+        -188.32269287109375,
+        149.9563446044922,
+        46.53049087524414
+      ],
+      "velocity": [
+        -74.4110107421875,
+        -4.54559326171875,
+        -3.9508819580078125
+      ],
+      "speed": 74.6543394989269,
+      "coordinate_units": "mm",
+      "coordinate_frame": "leap_motion_cartesian",
+      "is_valid": true,
+      "is_missing": false,
+      "available_at_clock": true
+    },
+    "forecast_result": {
+      "participant_id": "sub-01",
+      "trial_id": "sub-01_run-01_L1_tr00",
+      "model_name": "kinematic_forecaster_held_out_sub01",
+      "forecast_protocol": "kinematic_onset",
+      "forecast_generation_time_ms": 825.0,
+      "prefix_start_time_ms": 625.0,
+      "prefix_end_time_ms": 825.0,
+      "observed_prefix": [
+        [
+          1.5681579113006592,
+          151.68614196777344,
+          50.76106643676758
+        ],
+        [
+          1.3657841682434082,
+          151.7057342529297,
+          50.748199462890625
+        ],
+        [
+          1.1646696329116821,
+          151.72850036621094,
+          50.73375701904297
+        ],
+        [
+          0.9676773548126221,
+          151.75462341308594,
+          50.7183723449707
+        ],
+        [
+          0.777450442314148,
+          151.78411865234375,
+          50.70270538330078
+        ],
+        [
+          0.596305251121521,
+          151.81686401367188,
+          50.68739318847656
+        ],
+        [
+          0.4261389672756195,
+          151.8525848388672,
+          50.67304229736328
+        ],
+        [
+          0.2683551013469696,
+          151.8908233642578,
+          50.660160064697266
+        ],
+        [
+          0.12380973994731903,
+          151.93092346191406,
+          50.649147033691406
+        ],
+        [
+          -0.007219470571726561,
+          151.9721221923828,
+          50.64027404785156
+        ],
+        [
+          -0.12504075467586517,
+          152.0135040283203,
+          50.633670806884766
+        ],
+        [
+          -0.23053252696990967,
+          152.0541534423828,
+          50.62932586669922
+        ],
+        [
+          -0.3251058757305145,
+          152.09307861328125,
+          50.627105712890625
+        ],
+        [
+          -0.41064751148223877,
+          152.1293487548828,
+          50.62675857543945
+        ],
+        [
+          -0.4894472360610962,
+          152.16213989257812,
+          50.62796401977539
+        ],
+        [
+          -0.5641138553619385,
+          152.1907501220703,
+          50.630374908447266
+        ],
+        [
+          -0.6374852061271667,
+          152.2146453857422,
+          50.63363265991211
+        ],
+        [
+          -0.7125372886657715,
+          152.23348999023438,
+          50.63743209838867
+        ],
+        [
+          -0.792296826839447,
+          152.24713134765625,
+          50.64154815673828
+        ],
+        [
+          -0.8797610402107239,
+          152.25563049316406,
+          50.645870208740234
+        ]
+      ],
+      "predicted_endpoint": [
+        -115.99057006835938,
+        150.44308471679688,
+        50.800968170166016
+      ],
+      "actual_endpoint": [
+        -188.97642517089844,
+        149.9173126220703,
+        46.49844741821289
+      ],
+      "coordinate_units": "mm",
+      "coordinate_frame": "leap_motion_cartesian",
+      "is_held_out": true,
+      "held_out_participant": "sub-01",
+      "status": "AVAILABLE",
+      "error_message": null
+    },
+    "conflict_assessment": {
+      "participant_id": "sub-01",
+      "trial_id": "sub-01_run-01_L1_tr00",
+      "replay_time_ms": 2605.0,
+      "conflict_state": "POTENTIAL_DISAGREEMENT",
+      "endpoint_target_distance_mm": 72.04436492919922,
+      "directional_disagreement_deg": 0.6638184310736598,
+      "normalized_distance_score": 0.7204436492919922,
+      "neural_goal_agreement": true,
+      "motor_forecast_agreement": true,
+      "retrospective_endpoint_error_mm": 73.11445617675781,
+      "explanation": "Potential disagreement: predicted endpoint is 72.0 mm from the mapped target (exceeds 50.0 mm threshold) or directional angle is 0.7\u00b0 (exceeds 45.0\u00b0 threshold).",
+      "is_conflict": true
+    },
+    "alignment_status": "ALIGNED",
+    "coordinate_mapping_status": "VERIFIED",
+    "active_protocol": "kinematic_onset",
+    "warnings": []
+  }
+}

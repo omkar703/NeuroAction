@@ -1,0 +1,13 @@
+Metric,Value
+True Positives (Incongruent Detected Conflict),100.0
+False Positives (Congruent Flagged Conflict),54.0
+True Negatives (Congruent Detected Aligned),79.0
+False Negatives (Incongruent Missed Conflict),36.0
+Sensitivity / Recall,0.7353
+Specificity,0.594
+Precision,0.6494
+F1-Score,0.6897
+Balanced Accuracy,0.6646
+Conflict Score AUROC,0.6834
+Phase 2 Neural Goal Balanced Accuracy (LOSO),0.6834
+Phase 3 Kinematic Endpoint RMSE (LOSO mm),47.25

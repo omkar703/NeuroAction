@@ -1,0 +1,39 @@
+# ==============================================================================
+# NeuroAction — Core Python Dependencies
+# Python >= 3.10 required
+# ==============================================================================
+
+# Scientific Computing & Signal Processing
+numpy>=1.23.0,<3.0.0
+scipy>=1.10.0,<2.0.0
+pandas>=1.5.0,<3.0.0
+h5py>=3.8.0
+
+# Machine Learning & Statistics
+scikit-learn>=1.2.0,<2.0.0
+torch>=2.0.0
+
+# Electrophysiology Visualization & Plotting
+matplotlib>=3.6.0
+pillow>=9.0.0
+
+# Web Backend API (web/backend/)
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+pydantic>=2.0.0
+httpx>=0.24.0
+
+# Jupyter Research Notebooks (notebooks/)
+jupyterlab>=3.6.0
+notebook>=6.5.0
+nbformat>=5.7.0
+nbclient>=0.7.0
+ipykernel>=6.20.0
+
+# Testing & Code Quality (tests/)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Utilities
+tqdm>=4.64.0
+requests>=2.28.0

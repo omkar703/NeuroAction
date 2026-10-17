@@ -1,0 +1,70 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+:root {
+  --background: #F5F3EE;
+  --foreground: #1C1C1A;
+}
+
+@theme inline {
+  --font-display: var(--font-poppins);
+  --font-heading: var(--font-poppins);
+  --font-poppins: var(--font-poppins);
+  --font-body: var(--font-opensans);
+  --font-sans: var(--font-opensans);
+  --font-serif: var(--font-poppins);
+  --font-mono: var(--font-opensans);
+
+  --color-ivory: #F5F3EE;
+  --color-ivory-subtle: #FAF9F5;
+  --color-surface: #FFFFFF;
+  --color-surface-inset: #EDECE6;
+  --color-charcoal: #1C1C1A;
+  --color-muted: #6B6B66;
+  --color-forest: #3A5244;
+  --color-forest-hover: #2D4036;
+  --color-forest-subtle: #E4EDE6;
+  --color-border: #D9D8D0;
+  --color-border-strong: #AEADA4;
+  --color-eegCyan: #2563EB;
+  --color-goalBlue: #1D4ED8;
+  --color-trajGreen: #2E6B47;
+  --color-forecastViolet: #6B46C1;
+  --color-errorOrange: #B45309;
+  --color-grayNeutral: #6B6B66;
+  --color-navyBg: #F5F3EE;
+}
+
+/* ── Base ──────────────────────────────────────── */
+body {
+  background-color: #F5F3EE;
+  color: #1C1C1A;
+  min-height: 100vh;
+  font-family: var(--font-opensans), "Open Sans", system-ui, sans-serif;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+/* All headings use Poppins */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins), "Poppins", system-ui, sans-serif;
+  font-weight: 700;
+}
+
+/* Monospace spans (specs, labels) use Open Sans for now */
+code, kbd, samp, pre {
+  font-family: var(--font-opensans), "Open Sans", system-ui, sans-serif;
+  font-weight: 500;
+}
+
+/* Focus rings */
+:focus-visible {
+  outline: 2px solid #3A5244;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #F5F3EE; }
+::-webkit-scrollbar-thumb { background: #C8C7BF; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #AEADA4; }

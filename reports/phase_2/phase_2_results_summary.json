@@ -1,0 +1,78 @@
+{
+  "n_trials": 269,
+  "n_subjects": 5,
+  "subjects": [
+    "sub-01",
+    "sub-02",
+    "sub-03",
+    "sub-08",
+    "sub-15"
+  ],
+  "ncps": {
+    "goal_all": {
+      "detected": true,
+      "center_ms": -900.0,
+      "window_id": 0,
+      "balanced_accuracy": 0.6916748768472907,
+      "status": "Statistical commitment onset identified at -900 ms"
+    },
+    "motor_all": {
+      "detected": true,
+      "center_ms": -700.0,
+      "window_id": 4,
+      "balanced_accuracy": 0.5528518518518519,
+      "status": "First above-chance threshold at -700 ms (transient)"
+    },
+    "goal_transfer": {
+      "detected": true,
+      "center_ms": -900.0,
+      "window_id": 0,
+      "balanced_accuracy": 0.7093040293040292,
+      "status": "Statistical commitment onset identified at -900 ms"
+    },
+    "motor_transfer": {
+      "detected": false,
+      "center_ms": null,
+      "window_id": null,
+      "balanced_accuracy": null,
+      "status": "No statistically reliable pre-movement commitment point detected prior to t=0"
+    }
+  },
+  "ablation": {
+    "goal": {
+      "all_channels_acc": 0.6849633699633699,
+      "motor_channels_acc": 0.5874535809018567,
+      "delta": -0.0975097890615132
+    },
+    "motor": {
+      "all_channels_acc": 0.5272222222222223,
+      "motor_channels_acc": 0.46729629629629627,
+      "delta": -0.059925925925925994
+    }
+  },
+  "readiness_potential_slopes": {
+    "C3": {
+      "slope_uV_per_s": -0.9081286356499882,
+      "rvalue": -0.48356035927622104,
+      "pvalue": 3.97533848796504e-07
+    },
+    "CZ": {
+      "slope_uV_per_s": -3.7659986189992187,
+      "rvalue": -0.944836705252819,
+      "pvalue": 8.173714936564e-49
+    },
+    "C4": {
+      "slope_uV_per_s": 0.21954985009938313,
+      "rvalue": 0.13390089158506208,
+      "pvalue": 0.18638952269863085
+    }
+  },
+  "smr_erd_onset": {
+    "mu_erd_c3": -70.73511657798394,
+    "mu_erd_cz": -73.39860638620992,
+    "mu_erd_c4": -59.30715482029951,
+    "beta_erd_c3": -72.30836030926407,
+    "beta_erd_cz": -65.02068639827453,
+    "beta_erd_c4": -59.66964359272057
+  }
+}

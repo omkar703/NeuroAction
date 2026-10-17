@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this research codebase or digital twin platform, please cite it as below."
+title: "NeuroAction: Neural Intention–Action Digital Twin"
+abstract: "An offline multimodal research platform investigating pre-movement scalp EEG goal intention decoding and early 3D limb trajectory forecasting using optical kinematics."
+type: software
+version: "1.0.0"
+date-released: "2026-10-18"
+keywords:
+  - brain-computer-interface
+  - electroencephalography
+  - trajectory-forecasting
+  - digital-twin
+  - motor-intention
+  - openneuro-ds006840
+references:
+  - type: data
+    title: "IACKD: Intention Action Conflict EEG-Hand Kinematics Dataset"
+    authors:
+      - family-names: Cai
+        given-names: Mengpu
+      - family-names: Fu
+        given-names: Rongrong
+      - family-names: Wang
+        given-names: Yaodong
+      - family-names: Lu
+        given-names: Bin
+      - family-names: Guo
+        given-names: Saiwei
+      - family-names: Xu
+        given-names: Fangyao
+    doi: "10.18112/openneuro.ds006840.v1.0.0"
+    year: 2024

@@ -1,0 +1,4 @@
+participant_id,session_id,trial_id,intended_target_id,target_x_mm,target_y_mm,target_z_mm,target_tolerance_mm,coordinate_frame,coordinate_units,actual_endpoint_x_mm,actual_endpoint_y_mm,actual_endpoint_z_mm,target_success,is_synthetic_example
+sub-ext01,ses-01,sub-ext01_ses-01_tr00,left_target,-190.0,150.0,50.0,40.0,optitrack_cartesian_mm,mm,-185.2,148.1,52.4,1,True
+sub-ext01,ses-01,sub-ext01_ses-01_tr01,right_target,190.0,150.0,50.0,40.0,optitrack_cartesian_mm,mm,120.5,135.0,45.0,0,True
+sub-ext02,ses-01,sub-ext02_ses-01_tr00,right_target,190.0,150.0,50.0,40.0,optitrack_cartesian_mm,mm,188.7,149.2,51.0,1,True

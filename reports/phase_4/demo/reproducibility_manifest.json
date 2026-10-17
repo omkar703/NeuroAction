@@ -1,0 +1,45 @@
+{
+  "generation_timestamp": "2026-10-13T21:50:04.094053",
+  "python_version": "3.10.18 (main, Aug 18 2025, 19:18:25) [Clang 20.1.4 ]",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+  "repository": "NeuroAction \u2014 Neural Intention-Action Digital Twin",
+  "phase": 4,
+  "configuration": {
+    "distance_reference_mm": 100.0,
+    "distance_threshold_mm": 50.0,
+    "directional_threshold_deg": 45.0,
+    "confidence_uncertainty_threshold": 0.55,
+    "speed_threshold_mm_s": 20.0,
+    "prefix_duration_ms": 200.0,
+    "demo_trial_id": "sub-01_run-01_L1_tr00",
+    "default_protocol": "kinematic_onset",
+    "target_left_coord_mm": [
+      -188.0,
+      150.0,
+      53.0
+    ],
+    "target_right_coord_mm": [
+      187.5,
+      149.0,
+      51.0
+    ]
+  },
+  "model_artifacts": {
+    "phase_2_lda_full": {
+      "path": "models/phase_2/lda_goal_decoder.pkl",
+      "sha256": "bd020fa38c92396721f6402efb23f05025e3761b3aee8b38f1b98e5d0aca9409"
+    },
+    "phase_2_lda_held_out_sub01": {
+      "path": "models/phase_2/lda_goal_decoder_held_out_sub01.pkl",
+      "sha256": "519089b2e0895af27e716352c145ec191fd1923d35694710e3f8bf8dff92e8e4"
+    },
+    "phase_3_ridge_full": {
+      "path": "models/phase_3/kinematic_forecaster.pkl",
+      "sha256": "4f2e5934e41e5a2cb977eb5ed091f7f3e05e94e32f670531ad76cd4a4fa25f5e"
+    },
+    "phase_3_ridge_held_out_sub01": {
+      "path": "models/phase_3/kinematic_forecaster_held_out_sub01.pkl",
+      "sha256": "2f80e19345458c66f4539170b155c27b8e4bc8990051fba813334ae6ba2aa51e"
+    }
+  }
+}

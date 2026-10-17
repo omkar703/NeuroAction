@@ -12,6 +12,14 @@
 > *"Software verified; retrospective existing-data evaluation complete; prospective clinical translation pending."*  
 > NeuroAction is an offline multimodal research platform combining electrophysiological pre-movement goal decoding, continuous optical hand tracking, 3D trajectory forecasting, and real-time causal replay within an interactive digital-twin environment.
 
+<p align="center">
+  <img src="docs/landing_page.gif" alt="NeuroAction Research Showcase" width="49%" />
+  <img src="docs/3d_twin.gif" alt="3D Digital Twin Simulation" width="49%" />
+</p>
+<p align="center">
+  <em>Interactive Web Showcase with Sensorimotor Oscilloscope (Left) and 3D Digital Twin Simulation with Procedural Hand Kinematics (Right).</em>
+</p>
+
 ---
 
 ## Table of Contents
@@ -157,6 +165,8 @@ Brain_Movement/
 │       └── neural_goal_decoding_summary.json
 │
 ├── docs/                                      # DETAILED ACADEMIC & TECHNICAL DOCUMENTATION
+│   ├── landing_page.gif                       # Showcase UI demonstration animation
+│   ├── 3d_twin.gif                            # 3D digital twin workspace simulation animation
 │   ├── methodology.md                         # Full mathematical formulation & signal equations
 │   ├── architecture.md                        # System design: Next.js 16, FastAPI, Three.js Digital Twin
 │   ├── research_notes.md                      # Epistemic boundaries: proxy targets & acausal filters
